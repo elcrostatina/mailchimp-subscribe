@@ -11,7 +11,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
-    "pub": "npm version patch --force",
+    "bump:version": "npm version patch --force",
     "lint": "tslint -p tsconfig.json",
     "format": "prettier --write \"src/**/*.ts\""
   },
