@@ -1,7 +1,7 @@
 export const replace = (
   str: string,
   search: string,
-  replace: string,
+  stringToReplace: string,
 ): string => {
-  return str.split(search).join(replace);
+  return str.split(search).join(stringToReplace);
 };
