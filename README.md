@@ -7,9 +7,14 @@
 
 
 ## Mailchimp subscription library
+Allows you to subscribe users to your Mailchimp list. You can use it in your favourite framework or even in plain js/ts project.
+### Installation
 
+```sh
+  npm i mailchimp-subscription-library
+```
 
-## Usage
+### Usage
 1. Retrieve mailchimp signup form url, something like 
     ```
     https://YOUR_MAILCHIMP_FORM_HOST/subscribe?u=YOUR_U&id=YOUR_FORM_ID
