@@ -7,7 +7,7 @@ import { get } from '../utils/http.utils';
 import { SubscribeStatus } from '../enums/subscribe.enum';
 import { replace } from '../utils/string.utils';
 
-export class MailchimpSubscribe {
+export class MailchimpSubscription {
   constructor(private readonly url: string) {}
 
   public async subscribe(params: SubscribeParams): Promise<SubscribeResponse> {

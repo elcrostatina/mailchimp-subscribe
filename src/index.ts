@@ -1,1 +1,1 @@
-export { MailchimpSubscribe } from './services/mailchimp-subscribe.service';
+export { MailchimpSubscription } from './services/mailchimp-subscribe.service';

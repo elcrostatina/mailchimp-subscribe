@@ -1,5 +1,5 @@
 import * as httpUtils from '../../src/utils/http.utils';
-import { MailchimpSubscribe } from '../../src';
+import { MailchimpSubscription } from '../../src';
 
 const URL = 'foo';
 
@@ -23,7 +23,7 @@ describe('mailchimp integration test suit', () => {
       .spyOn(httpUtils, 'get')
       .mockImplementation(async () => axiosSuccessMockedResponse);
 
-    const resp = await new MailchimpSubscribe(URL).subscribe({
+    const resp = await new MailchimpSubscription(URL).subscribe({
       EMAIL: 'foo',
       LNAME: 'fooo',
     });
@@ -39,7 +39,7 @@ describe('mailchimp integration test suit', () => {
       .spyOn(httpUtils, 'get')
       .mockImplementation(async () => axiosErrorMockedResponse);
 
-    const resp = await new MailchimpSubscribe(URL).subscribe({
+    const resp = await new MailchimpSubscription(URL).subscribe({
       EMAIL: 'foo',
       LNAME: 'fooo',
     });
