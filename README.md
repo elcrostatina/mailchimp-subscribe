@@ -21,7 +21,7 @@ Allows you to subscribe users to your Mailchimp list. You can use it in your fav
     ```
 2. Import the module
    ```typescript
-   import { MailchimpSubscription } from 'mailchimp-subscription';
+   import { MailchimpSubscription } from 'mailchimp-subscription-library';
     ```
 3. Create a new instance and call the subscribe method
    ```typescript
