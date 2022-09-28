@@ -1,6 +1,6 @@
 {
   "name": "mailchimp-subscription-library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "lib/src/index.js",
   "types": "lib/src/index.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@elcrostatina:elcrostatina/mailchimp-subscribe.git"
+    "url": "https://github.com/elcrostatina/mailchimp-subscribe-library.git"
   },
   "keywords": [],
   "author": "elcrostatina",
