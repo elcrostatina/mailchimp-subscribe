@@ -2,7 +2,7 @@ import axios from 'axios';
 
 interface GetRequestParams {
   url: string;
-  params?: { [key: string]: string };
+  params?: Record<any, any>;
 }
 
 export const get = async <T>(params: GetRequestParams): Promise<T> => {

@@ -1,6 +1,6 @@
 import { SubscribeStatus } from '../enums/subscribe.enum';
 
-export type SubscribeParams = { [key: string]: string };
+export type SubscribeParams = Record<any, any>;
 
 export type SubscribeResponse = { message?: string; status: SubscribeStatus };
 

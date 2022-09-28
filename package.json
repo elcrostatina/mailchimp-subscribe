@@ -1,6 +1,6 @@
 {
   "name": "mailchimp-subscription-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "lib/src/index.js",
   "types": "lib/src/index.d.ts",
@@ -11,8 +11,9 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
-    "lint": "tslint -p tsconfig.json"
+    "pub": "npm version patch --force",
+    "lint": "tslint -p tsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\""
   },
   "repository": {
     "type": "git",
